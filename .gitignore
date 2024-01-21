@@ -75,6 +75,11 @@ docs/_build/
 .pybuilder/
 target/
 
+data/
+json_data/old/
+json_data/lmsys-chat-1m_10000.json
+json_data/lmsys-chat-1m_22700.json
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
