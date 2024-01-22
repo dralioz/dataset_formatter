@@ -97,7 +97,7 @@ for i in range(1600):
     
     if (i % 20 == 0 and i != 0) or i == 1599:
         print(20*50, i, len(prompts), len(data))
-        time.sleep(220)
+        time.sleep(200)
         
         file_path = f'lmsys-chat-1m_21_Jan_1000_{file_count}.json'
         file_count += 1
