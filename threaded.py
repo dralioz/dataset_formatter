@@ -73,9 +73,9 @@ frame['input_text'] = conversations['conversation'].apply(lambda x: x[0]['conten
 frame['output_text'] = conversations['conversation'].apply(lambda x: x[1]['content'] if x[1]['role'] == 'assistant' else x[0]['content'])
 
 data = []
-start_index = 183300
+start_index = 263300 # 343300
 start_time = time.time()
-file_count = 131
+file_count = 162
 
 for i in range(1600):
     time.sleep(2)
