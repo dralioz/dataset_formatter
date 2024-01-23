@@ -21612,3 +21612,29 @@ HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out. (rea
 HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out. (read timeout=10)
 HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out. (read timeout=10)
 not writable
+not writable
+HTTPSConnectionPool(host='translate.google.com', port=443): Max retries exceeded with url: /m?tl=tr&sl=en&q=Input%20text%20sentiment%20%7C%20positive%0A%0AAspects%20and%20corresponding%20sentiments%3A%0A%0A%2A%20core%20values%20%7C%20positive%0A%2A%20motivation%20%7C%20positive (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+not writable
+not writable
+not writable
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+not writable
+('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
+HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out.
