@@ -73,11 +73,11 @@ frame['input_text'] = conversations['conversation'].apply(lambda x: x[0]['conten
 frame['output_text'] = conversations['conversation'].apply(lambda x: x[1]['content'] if x[1]['role'] == 'assistant' else x[0]['content'])
 
 data = []
-start_index = 343300 # 423300
+start_index = 423300 # 523300
 start_time = time.time()
-file_count = 242
+file_count = 322
 
-for i in range(1600):
+for i in range(2000):
     time.sleep(2)
     end_index = start_index + 50
     inputs, outputs = main(start_index, end_index, frame)
@@ -95,9 +95,9 @@ for i in range(1600):
     data.extend(prompts)
     start_index = end_index
     
-    if (i % 20 == 0 and i != 0) or i == 1599:
+    if (i % 20 == 0 and i != 0) or i == 1999:
         print(20*50, i, len(prompts), len(data))
-        time.sleep(200)
+        time.sleep(180)
         
         file_path = f'lmsys-chat-1m_23_Jan_1000_{file_count}.json'
         file_count += 1
