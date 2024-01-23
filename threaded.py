@@ -73,9 +73,9 @@ frame['input_text'] = conversations['conversation'].apply(lambda x: x[0]['conten
 frame['output_text'] = conversations['conversation'].apply(lambda x: x[1]['content'] if x[1]['role'] == 'assistant' else x[0]['content'])
 
 data = []
-start_index = 263300 # 343300
+start_index = 343300 # 343300
 start_time = time.time()
-file_count = 162
+file_count = 242
 
 for i in range(1600):
     time.sleep(2)
@@ -99,7 +99,7 @@ for i in range(1600):
         print(20*50, i, len(prompts), len(data))
         time.sleep(200)
         
-        file_path = f'lmsys-chat-1m_21_Jan_1000_{file_count}.json'
+        file_path = f'lmsys-chat-1m_23_Jan_1000_{file_count}.json'
         file_count += 1
         with open(file_path, 'w', encoding='utf-8') as file:
             json.dump(data, file, ensure_ascii=False, indent=4)
