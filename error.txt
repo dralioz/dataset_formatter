@@ -22179,3 +22179,7 @@ not writable
 not writable
 not writable
 not writable
+not writable
+('Connection aborted.', OSError(22, 'Invalid argument'))
+('Connection aborted.', OSError(22, 'Invalid argument'))
+('Connection aborted.', OSError(22, 'Invalid argument'))
