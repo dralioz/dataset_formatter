@@ -75,7 +75,7 @@ frame['output_text'] = conversations['conversation'].apply(lambda x: x[1]['conte
 data = []
 start_index = 723300 # 923300
 start_time = time.time()
-file_count = 422
+file_count = 622
 
 for i in range(4000):
     time.sleep(2)
@@ -99,7 +99,7 @@ for i in range(4000):
         print(20*50, i, len(prompts), len(data))
         time.sleep(180)
         
-        file_path = f'lmsys-chat-1m_23_Jan_1000_{file_count}.json'
+        file_path = f'lmsys-chat-1m_25_Jan_1000_{file_count}.json'
         file_count += 1
         with open(file_path, 'w', encoding='utf-8') as file:
             json.dump(data, file, ensure_ascii=False, indent=4)
