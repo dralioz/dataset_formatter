@@ -77,7 +77,7 @@ start_index = 923300 # 923300
 start_time = time.time()
 file_count = 822
 
-for i in range(4000):
+for i in range(1500):
     time.sleep(2)
     end_index = start_index + 50
     inputs, outputs = main(start_index, end_index, frame)
