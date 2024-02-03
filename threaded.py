@@ -95,7 +95,7 @@ for i in range(1500):
     data.extend(prompts)
     start_index = end_index
     
-    if (i % 20 == 0 and i != 0) or i == 3999:
+    if (i % 20 == 0 and i != 0) or i == 1499:
         print(20*50, i, len(prompts), len(data))
         time.sleep(180)
         
